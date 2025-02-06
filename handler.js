@@ -1,6 +1,6 @@
 const { sayHello } = require("./utils/helper");
 
-module.handler = async function (context, event) {
+exports.handler = async function (context, event) {
     let name = event.body ? event.body.toString() : "Guest";
     context.logger.infoWith('Adding to now', {
         'request': request,
