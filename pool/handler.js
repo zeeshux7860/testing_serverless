@@ -5,7 +5,7 @@ exports.handler = async function (context, event) {
     context.logger.infoWith('Adding to now', {
         // 'request': request,
         // 'to': now.format()
-        "to" : "testing"
+        "to" : "pool"
     });
     context.callback({
         statusCode: 200,
